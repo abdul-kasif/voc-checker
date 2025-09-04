@@ -19,14 +19,14 @@ This project directly supports the **VOC compliance use case**, by predicting va
 ## Task Progress  
 We are following a structured **20-task roadmap**. Below is the current progress:  
 
-- [x] **Task 1** – Environment setup  
-- [x] **Task 2** – QM9 dataset download & subset creation (VOC-compliant molecules only)  
-- [x] **Task 3** – VRAM footprint analysis  
-- [x] **Task 4** – Data inspection & target properties documentation  
-- [x] **Task 5** – Identification of VOC threshold in German TA Luft (§11)  
+- [x] **Task 1** – Environment setup [(view)](./logs/1-env_setup.md) 
+- [x] **Task 2** – QM9 dataset download & subset creation (VOC-compliant molecules only) [(view)](./logs/2-data_download.md)  
+- [x] **Task 3** – VRAM footprint analysis [(view)](./logs//3-VRAM_footprint.md) 
+- [x] **Task 4** – Data inspection & target properties documentation [(view)](./logs/4-data_inspection.md) 
+- [x] **Task 5** – Identification of VOC threshold in German TA Luft (§11) [(view)](./VOC_threshold.md)
 - [x] **Task 6** – GitHub repo setup
 - [x] **Task 7** - Add German regulatory context to README
-- [x] **Task 9** - enable **mixed precision training (FP16)** using **PyTorch AMP** and compare GPU VRAM usage with standard **FP32 training**
+- [x] **Task 9** - enable **mixed precision training (FP16)** using **PyTorch AMP** and compare GPU VRAM usage with standard **FP32 training** [(view)](./logs/9-mixed_precision_test.md)
 - [ ] **Task 10–20** – Model development, training, evaluation, demo interface, and deployment  
 
  
