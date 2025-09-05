@@ -73,7 +73,6 @@ voc-checker/
 ├── src/               # Python source code
 ├── logs/              # Task-wise documentation
 |   └──proof/          # Proof images for completed tasks     
-├── demo/              # Placeholder for demos
 ├── VOC_threshold.md   # VOC Vapor Pressure Threshold in German Regulations
 ├── README.md          # Project overview (this file)
 └── requirements.txt   # Python dependencies
